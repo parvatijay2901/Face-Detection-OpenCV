@@ -1,4 +1,4 @@
-# Face detection OpenCV
+# Face detection/OpenCV
 
 This is a Haarcascade face detector in OpenCV, we have used inbuilt haarcascade classifier to train the data.
 The Haar cascade classifier uses the AdaBoost algorithm to detect multiple facial organs including the eye, nose, and mouth. First, it reads the image to be detected and converts it into gray image, then loads Haar cascade classifier to judge whether it contains human face.
@@ -13,3 +13,5 @@ After creating a data set, run Three_FaceLocker.py
 We will get the training data we previously made, and the Haar Cascade is further trained by superimposing the positive image over a set of negative images (after converting to gray scaled image).
 
 The webcam then opens automatically, and classify whether the face is Locked or Unlocked (depending on the data set we create).
+
+Also, there is another python file detect.py, which detects the face and eyes (using the same algorithm)
